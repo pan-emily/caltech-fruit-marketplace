@@ -1,0 +1,8 @@
+grape
+2.00
+small, juicy fruits available in various colors often used in wine
+imgs/grape.jpeg
+pound-of-grapes
+napa valley, ca
+10
+No customizations

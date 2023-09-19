@@ -1,0 +1,8 @@
+pineapple
+2.50
+large, tropical, yellow, and spiky fruit with a sweet and tangy taste
+imgs/pineapple.jpeg
+a-single-pineapple
+imported from mexico
+10
+No customizations

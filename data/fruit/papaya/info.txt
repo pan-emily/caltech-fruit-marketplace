@@ -1,0 +1,8 @@
+papaya
+2.00
+large tropical fruits with sweet, orange inside and pocket of small black seeds
+imgs/papaya.jpeg
+single-cut-papaya
+imported from mexico
+10
+No customizations

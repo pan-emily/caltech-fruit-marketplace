@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+    Author: Emily Pan 
+    CS 132 Spring 2023
+    This is the product.html webpage to display the user's
+    cart. The cart will show some relevant information 
+    about the items in the cart. It will also have a form
+    to customize a note with the order, and also will
+    give a mini preview about what information they have
+    entered for the note. 
+-->
+<html>
+    <head>
+        <title>Caltech Fruit Marketplace</title>
+        <link href="styles.css" rel="stylesheet">
+        <script src="helpers.js"></script>
+        <script defer src="cart.js"></script>
+    </head>
+
+    <body>
+
+        <header id="top-bar">
+            <h1>Caltech Berry Market</h1>
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+              </ul>
+            </nav>
+          </header>
+
+      <main>
+      <div id="cart">
+        <header>
+            <h2>Cart</h2>
+        </header>
+        <div id = "cart-wrapper">
+
+        </div>
+      </div>
+      <div id="cards">
+        <form id="card-form" class="input-form">
+            <div id="card-form-header">
+                <h2>Add a custom card to your order!</h2>
+            </div>
+
+            <select name="paper-color" id="paper-color">
+                <option value="" selected disabled hidden>Paper Color</option>
+                <option value="red">Red</option>
+                <option value="yellow">Yellow</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="white">White</option>
+  
+            <input type="text" id="card-search" placeholder="Add a note">
+            <button id="submit-card-btn">Generate Note</button>
+          </form>
+        <div id="card-text">
+
+        </div>
+      </div>
+      </main>
+
+      <footer>
+        <p>Made with love by Emily</p>
+        <p>Not affiliated with Caltech Dining in any way</p>
+      </footer>
+    </body>
+</html>

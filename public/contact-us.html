@@ -1,0 +1,53 @@
+<!--
+    Author: Emily Pan
+    CS 132 Spring 2023
+
+    This is the contact-us.html website to allow users to give
+    feedback on the website. Users must enter a valid email
+    and a note of at leaset 10 characters to be able to send
+    in some feedback. 
+-->
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <script defer src="contact-us.js"></script>
+    <script src="helpers.js"></script>
+    <title>Contact Us!</title>
+</head>
+
+<body>
+    <header id="top-bar">
+        <h1>Caltech Berry Market</h1>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        </header>
+
+    <main>
+        <h2>Let us know how to improve, or tell us how well we're doing!</h2>
+        <section>
+            <form id="contact-form">
+                <p>
+                    <label for="email">Email: </label>
+                    <input id="email" name="email" type="email" autocomplete="on" required/>
+                </p>
+                <p><label for="msg">Please share your message below:</label></p>
+                <textarea id="msg" name="msg" rows="10" cols="30" minlength="10"></textarea>
+
+                <p><button id="submitted">Send!</button></p>
+            </form>
+        </section>
+        <p id="response"></p>
+    </main>
+</body>
+
+</html>

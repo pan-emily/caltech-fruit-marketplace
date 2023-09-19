@@ -1,0 +1,8 @@
+kiwi
+0.50
+small fruits with fuzzy brown skin and green inside
+imgs/kiwi.jpeg
+single-cut-kiwi
+butte, ca
+10
+No customizations

@@ -1,0 +1,8 @@
+pear
+1.50
+sweet and juicy fruits with a bumpy and oval shape
+imgs/pear.jpeg
+three-pears
+sacramento valley, ca
+10
+No customizations

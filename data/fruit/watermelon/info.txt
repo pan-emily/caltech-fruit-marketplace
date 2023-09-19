@@ -1,0 +1,8 @@
+watermelon
+4.00
+large, watery, round fruit with red insides and a striped green shell
+imgs/watermelon.jpeg
+cut-half-watermelon
+merced, ca
+10
+No customizations

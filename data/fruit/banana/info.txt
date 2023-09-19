@@ -1,0 +1,8 @@
+banana
+0.50
+tropical fruit with soft inside
+imgs/banana.jpeg
+spread-of-bananas
+imported from mexico
+10
+No customizations

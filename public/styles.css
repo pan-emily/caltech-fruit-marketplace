@@ -1,0 +1,109 @@
+/*
+    Name: Emily Pan
+    CS 132 Spring 2023
+    This is the styles.css page for my Caltech Berry Marketplace
+    website. It is used by both index.html and product.html
+    to give a consistent look and feel across both webpages.
+    Currently, the theme is basic and features color and style
+    that gives an earthy vibe. 
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+#top-bar ul li {
+    list-style-type: none;
+    display: inline;
+    font-size: 18pt;
+    border: 2px solid lightgray;
+}
+
+#top-bar ul li a {
+    text-decoration: none;
+}
+
+#top-bar ul, h1 {
+    display: block;
+}
+
+#top-bar h1 {
+    font-weight: 700;
+}
+
+body {
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100vh;
+    font-family: Noto Sans, sans-serif;
+}
+
+body, button[disabled=disabled], button:disabled {
+    background-color: darkslategray;
+}
+
+body, button[disabled=disabled], button:disabled, #top-bar ul li a {
+    color: lightgray;
+
+}
+
+h1 {
+    font-weight: bold;
+}
+
+#top-bar {
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#top-bar, .item-preview {
+    padding: 10px;
+}
+
+#item-container {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+body, #top-bar, #item-container {
+    display: flex;
+}
+
+#current-stock, #top-bar {
+    background-color: darkolivegreen;
+}
+
+#item-container, #current-stock, #top-bar ul li {
+    padding: 5px;
+}
+
+.item-preview {
+    width: 30%;
+}
+
+.item-preview img, #item-showcase img {
+    width: 70%;
+}
+
+#top-bar ul li, .item-preview img {
+    margin: 5px;
+}
+
+#item-showcase, form, #cart-wrapper, #cards, footer, #item-container {
+    text-align: center;
+}
+
+footer {
+    font-size: 8pt;
+}
+
+.fruit-cart {
+    border: 2px solid white;
+}
+
+#cart-wrapper button, form, .fruit-cart {
+    margin: 10px;
+}
+

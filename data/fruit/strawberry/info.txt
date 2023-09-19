@@ -1,0 +1,8 @@
+strawberry
+2.00
+small, sweet berries with a bright red color
+imgs/strawberry.jpeg
+spread-of-strawberries
+watsonville, ca
+10
+No customizations

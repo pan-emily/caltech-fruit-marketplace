@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+    Author: Emily Pan 
+    CS 132 Spring 2023
+    This is the product.html webpage to display individual
+    product information. An image as well as the name, 
+    price, availability of the fruit (and any other relevant
+    or important information) is shown here. 
+-->
+<html>
+    <head>
+        <title>Caltech Fruit Marketplace</title>
+        <link href="styles.css" rel="stylesheet">
+        <script src="helpers.js"></script>
+        <script src="product.js"></script>
+    </head>
+
+    <body>
+
+        <header id="top-bar">
+            <h1>Caltech Berry Market</h1>
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+              </ul>
+            </nav>
+          </header>
+
+      <main>
+        <form id="fruit-form" class="input-form">
+          <div id="fruit-form-header">
+              <h2> Search for a fruit: </h2> 
+          </div>
+
+          <input type="text" id="fruit-search" placeholder="Search for a fruit">
+          <button id="submit-btn">Search</button>
+        </form>
+        <div id="item-showcase">
+        </div>
+      </main>
+
+      <footer>
+        <p>Made with love by Emily</p>
+        <p>Not affiliated with Caltech Dining in any way</p>
+      </footer>
+    </body>
+</html>

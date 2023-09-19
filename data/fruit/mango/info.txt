@@ -1,0 +1,8 @@
+mango
+1.50
+tropical fruits with sweet, juicy, orange inside
+imgs/mango.jpeg
+a-few-wet-mangos
+imported from mexico
+10
+No customizations
